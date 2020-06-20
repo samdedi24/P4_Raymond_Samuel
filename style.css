@@ -28,7 +28,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    width: 95%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -363,6 +363,7 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -790,9 +791,6 @@ h4 {
     background-color: #364577;
 }
 
-.bgc-atomic-tangerine {
-    background-color: #F3976C;
-}
 
 .tc-white {
     color: #F3976C!important;
@@ -829,9 +827,7 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
+
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
@@ -842,7 +838,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image_de_presentation.jpg");
 }
 
 footer .row {
