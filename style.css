@@ -286,6 +286,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    color: #F3976C!important;
 }
 
 .navbar {
@@ -850,6 +851,9 @@ footer .row {
     justify-content: space-around;
 }
 
+#bloc-3-what-i-do h2 {
+    color: #F8B89B!important;
+}
 .col-sm-12 p{
     font-size: 15px;
     justify-content: center;
@@ -857,6 +861,7 @@ footer .row {
 
 #bloc-5-cta h2 {
    font-size: 20px;
+   color: #F3976C!important;
 }
 
 #bloc-8 {
@@ -901,13 +906,13 @@ footer .row {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -925,10 +930,6 @@ footer .row {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -937,8 +938,6 @@ footer .row {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
