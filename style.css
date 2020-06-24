@@ -686,7 +686,8 @@ p {
 .blockquote {
     display: block;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 17px;
+    padding: 10px 20px;
 }
 
 .blockquote p {
@@ -855,7 +856,7 @@ footer .row {
 }
 
 #bloc-5-cta h2 {
-   font-size: 25px;
+   font-size: 20px;
 }
 
 #bloc-8 {
