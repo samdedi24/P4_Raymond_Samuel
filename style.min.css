@@ -13,7 +13,8 @@ button {
     outline: none!important;
 }
 
-a:hover {
+a:hover
+a:focus {
     text-decoration: none;
     cursor: pointer;
 }
@@ -763,7 +764,6 @@ footer .row {
 .placement p {
     font-size: 15px;
 }
-
 
 @media (max-width: 1024px) {
     .bloc {
