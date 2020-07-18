@@ -13,9 +13,12 @@ button {
     outline: none!important;
 }
 
-a:hover, a:focus {
+a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+a:focus{
+    border: 1px solid black;
 }
 
 #page-loading-blocs-notifaction {
