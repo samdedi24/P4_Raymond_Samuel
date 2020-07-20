@@ -717,7 +717,6 @@ h4 {
 }
 
 
-
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
@@ -783,6 +782,10 @@ img:hover, img:focus, img:active {
         padding-left: 0;
         padding-right: 0;
     }
+}
+
+.bloc-button:focus {
+    border: 1px solid black;
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
